@@ -3,7 +3,7 @@ import telebot
 from PIL import Image
 from pytesseract import image_to_string
 
-bot = telebot.TeleBot("7033254554:AAGSmt6TbgrKjsWvcnO4QRlyk0XayqM8cSw")
+bot = telebot.TeleBot("")
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract\tesseract.exe'
 tessdata_dir_config = r'--tessdata-dir "C:\Program Files (x86)\Tesseract\tessdata"'
 
